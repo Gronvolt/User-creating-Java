@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/userlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="User gender"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userlabel"
+        android:layout_alignStart="@+id/userlabel"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="User name"
+        android:textSize="36sp" />
+
+
+    <TextView
+        android:id="@+id/userNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userlabel"
+        android:layout_alignStart="@+id/userlabel"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="-2dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="User numer"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/button_learn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_alignStart="@+id/username"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="74dp"
+        android:onClick="onClick"
+        android:text="Practice"
+        android:textSize="60dp" />
+
+    <Button
+        android:id="@+id/createUserButton"
+        android:layout_width="246dp"
+        android:layout_height="77dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:text="Create User"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

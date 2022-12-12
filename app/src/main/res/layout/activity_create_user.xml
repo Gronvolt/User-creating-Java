@@ -63,6 +63,5 @@
         android:layout_margin="16dp"
         android:layout_below="@+id/gender"
         android:text="Create"
-        android:onClick="onClick"
         />
 </RelativeLayout>
